@@ -10,7 +10,7 @@ from colorama import Fore, Back, Style
 from email.parser import BytesParser
 
 # Stores routes and what to do with client urls.
-routebook = {}
+routebook = {"/", "index.html"}
 
 # Adds to routebook. Although, Ugly way of doing so. And just a stupid function. But hey, the option's there.
 def add_route(request, dest):
