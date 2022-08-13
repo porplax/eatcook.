@@ -43,6 +43,9 @@ def main(host:str=None,port:int=None,folder:str=None):
     if port == None: out.append(Fore.YELLOW + "[WARNING]: Port number was not specified. Using :8000 instead."); port = 8000
     else: pass
 
+    if not folder.endswith('/'):
+        folder = folder + '/'
+    
     # Define routebook.
     try:
         with open(f'{folder}routebook.json', 'r') as f:
