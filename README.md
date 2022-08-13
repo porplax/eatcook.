@@ -45,3 +45,6 @@ import random
 generated = random.randint(1,100000)
 print(f"<h1 align='center'>{generated}</h1>") # Sends a generated number to client's browser.
 ```
+
+### Information
+Eatcook doesn't have the ablity to serve `.css` files. Though, I might muster up the courage to try 👀
