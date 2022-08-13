@@ -48,3 +48,9 @@ print(f"<h1 align='center'>{generated}</h1>") # Sends a generated number to clie
 
 ### Information
 Eatcook doesn't have the ablity to serve `.css` files. Though, I might muster up the courage to try 👀
+
+Also, very important info:
+```
+py -m eatcook --folder ./project/dir/ 
+```
+Include a `/` at the end of the folder argument to prevent errors. 
