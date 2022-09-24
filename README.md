@@ -35,7 +35,6 @@ Folder will also run in the directory of which you're working in if none are giv
 import eatcook
 
 eatcook.run(host, port, folder) # Runs eatcook.
-eatcook.add_route("/", "index.html") # Adds to script's route dict if no routebook.json is found. Though, it's much recommended to just use routebook.json
 ```
 
 To run python scripts as html:
